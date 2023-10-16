@@ -1,0 +1,8 @@
+// token ID is represented by:
+SpecialNFTAccount[SPECIAL_NFT_TOKEN];
+// for every mint, we increment the token ID of the NFT account
+SpecialNFTAccount[SPECIAL_NFT_TOKEN] += 1;
+// serial ID is represented by:
+CreatorAccount[SPECIAL_NFT_TOKEN];
+// for every mint, we increment the serial ID of the creator account
+CreatorAccount[SPECIAL_NFT_TOKEN] += 1;
